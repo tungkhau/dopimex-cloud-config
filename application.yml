@@ -15,4 +15,5 @@ eureka:
       defaultZone: http://eureka:8000/eureka
 
 port:
+  config: 8888
   partner: 8002
