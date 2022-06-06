@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/dopimex_${spring.application.name}
+    url: jdbc:mysql://mysql:3306/dopimex_${spring.application.name}
     username: root
     password: 15102017
   jpa:
@@ -16,4 +16,16 @@ eureka:
 
 port:
   config: 8888
-  partner: 8002
+  eureka: 8000
+  gateway: 8001
+  auth: 8002
+  user: 8003
+  partner: 8004
+  chemical: 8005
+  chemical-tag: 8006
+  chemical-price: 8007
+  recipe: 8008
+  material: 8009
+  color: 8010
+  procedure: 8011
+  product: 8012
