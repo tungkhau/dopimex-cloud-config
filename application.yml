@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/dopimex_{spring.application.name}
+    url: jdbc:mysql://localhost:3306/dopimex_${spring.application.name}
     username: root
     password: 15102017
   jpa:
