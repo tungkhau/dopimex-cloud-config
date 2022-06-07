@@ -27,7 +27,7 @@ port:
   gateway: ${GATEWAY_PORT}
   auth: 0
   user: 0
-  partner: 0
+  partner: 1111
   chemical: 0
   chemical-tag: 0
   chemical-price: 0
