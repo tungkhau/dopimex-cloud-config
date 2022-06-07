@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:mysql://mysql:3306/dopimex_${spring.application.name}
     username: root
-    password: 15102017
+    password: password
   jpa:
     hibernate:
       ddl-auto: update
@@ -27,7 +27,7 @@ port:
   gateway: ${GATEWAY_PORT}
   auth: 0
   user: 0
-  partner: 1111
+  partner: 0
   chemical: 0
   chemical-tag: 0
   chemical-price: 0
